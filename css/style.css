@@ -1,0 +1,185 @@
+/* header */
+
+.conteiner {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.hwrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hlogo {
+  margin-top: 55px;
+  font-size: 32px;
+  margin-right: 650px;
+}
+
+.logo-color {
+  color: #3d37f1;
+}
+
+.logo-color2 {
+  font-size: 25px;
+  color: black;
+}
+
+.header-nav-decor {
+  font-size: 20px;
+  margin-top: 65px;
+  color: #3d37f1;
+}
+
+/*section 1 */
+
+.s1h {
+  margin-top: 280px;
+  font-size: 78px;
+}
+
+.s1p {
+  font-size: 20px;
+  margin-top: 40px;
+}
+
+.wave {
+  cursor: pointer;
+  border-radius: 45px;
+  margin-top: 80px;
+  width: 220px;
+  height: 75px;
+  background-color: #3d37f1;
+}
+
+.waveimg {
+  margin: auto;
+  width: 35px;
+  height: 35px;
+}
+
+.wavep {
+  color: white;
+  margin: auto;
+  font-size: 23px;
+}
+
+.s1img {
+  margin-top: 280px;
+  width: 600px;
+  height: 320px;
+}
+
+.dflex {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* section 2 */
+
+.s2wrapper {
+  margin-top: 200px;
+  text-align: center;
+}
+
+.s2h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #3d37f1;
+}
+
+.s2h1 {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.s2p1 {
+  font-size: 18px;
+  color: #747474;
+}
+
+/* section3 */
+
+.card {
+  border-radius: 30px;
+  margin-top: 90px;
+  text-align: center;
+  width: 350px;
+  height: 440px;
+  background-color: #fbba77;
+}
+
+.button {
+  border-radius: 30px;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 120px;
+  height: 40px;
+  cursor: pointer;
+  color: white;
+  border: 3px solid white;
+}
+
+.card:nth-child(2) {
+  background-color: #41eae3;
+}
+.card:nth-child(3) {
+  background-color: #69529f;
+}
+
+.card2 {
+  border-radius: 30px;
+  margin-top: 60px;
+  margin-bottom: 100px;
+  text-align: center;
+  width: 350px;
+  height: 440px;
+  background-color: #4386d2;
+}
+
+.card2:nth-child(2) {
+  background-color: #a5a2f6;
+}
+
+.card2:nth-child(3) {
+  background-color: #ff8088;
+}
+
+.s3imgdec {
+  height: 100px;
+  width: 100px;
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+
+.s3h1dec {
+  margin-bottom: 15px;
+  font-size: 25px;
+  color: white;
+}
+
+.s3p1dec {
+  font-size: 15px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.button:hover {
+  color: black;
+  background-color: white;
+}
+
+.card:hover {
+  box-shadow: gray 10px 7px;
+}
+
+.card2:hover {
+  box-shadow: gray 10px 7px;
+}
+
+.wave:hover {
+  box-shadow: gray 7px 5px;
+}
